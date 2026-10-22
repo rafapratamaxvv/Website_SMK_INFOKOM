@@ -1,0 +1,4 @@
+<?php page_hero('Video', 'Video kegiatan dan profil sekolah.', ['Informasi' => null, 'Video' => null], 'video'); ?>
+<section class="section"><div class="container"><?php if (!$rows): ?><p class="muted">Belum ada video.</p><?php endif; ?><div class="grid g3">
+<?php foreach ($rows as $v): $yt = youtube_id($v['youtube_url']); if (!$yt) continue; ?><article class="card video-card reveal"><div class="vid"><button type="button" data-yt="<?= e($yt) ?>" aria-label="Putar: <?= e($v['title']) ?>" style="background-image:url('https://i.ytimg.com/vi/<?= e($yt) ?>/hqdefault.jpg')"><span class="play"><?= icon('video', 28) ?></span></button></div><div class="card-body"><h3><?= e($v['title']) ?> <?= demo_badge($v) ?></h3><p><?= e($v['description']) ?></p></div></article><?php endforeach; ?>
+</div></div></section>

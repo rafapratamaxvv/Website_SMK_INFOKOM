@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Ilustrasi gedung sekolah">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DCE8F8"/><stop offset="1" stop-color="#E8EEF7"/></linearGradient></defs>
+<rect width="640" height="480" rx="28" fill="url(#sky)"/>
+<circle cx="530" cy="92" r="52" fill="#F5B800" opacity=".85"/><circle cx="530" cy="92" r="72" fill="#F5B800" opacity=".18"/>
+<g fill="#fff" opacity=".95"><ellipse cx="120" cy="90" rx="50" ry="16"/><ellipse cx="150" cy="78" rx="36" ry="14"/><ellipse cx="420" cy="62" rx="44" ry="13"/><ellipse cx="445" cy="52" rx="28" ry="11"/></g>
+<rect y="396" width="640" height="84" fill="#BFD0EA"/><rect y="396" width="640" height="10" fill="#A9BFDF"/>
+<path d="M250 480 L290 396 H350 L390 480Z" fill="#D5E0F2"/>
+<rect x="110" y="196" width="420" height="200" fill="#0B4DA2"/>
+<rect x="250" y="150" width="140" height="246" fill="#0A2A5E"/>
+<path d="M236 150 L320 100 L404 150Z" fill="#F5B800"/>
+<rect x="312" y="62" width="4" height="40" fill="#0A2A5E"/><path d="M316 64 h34 v18 h-34z" fill="#D8352A"/><path d="M316 82 h34 v18 h-34z" fill="#fff"/>
+<rect x="262" y="166" width="116" height="26" rx="5" fill="#fff"/><text x="320" y="187" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-weight="800" font-size="12.5" fill="#0A2A5E" letter-spacing=".8">SMK INFOKOM</text>
+<rect x="126" y="222" width="34" height="30" rx="3" fill="#F5B800"/><rect x="170" y="222" width="34" height="30" rx="3" fill="#F5B800"/><rect x="214" y="222" width="34" height="30" rx="3" fill="#F5B800"/><rect x="126" y="268" width="34" height="30" rx="3" fill="#F5B800"/><rect x="170" y="268" width="34" height="30" rx="3" fill="#F5B800"/><rect x="214" y="268" width="34" height="30" rx="3" fill="#F5B800"/><rect x="126" y="314" width="34" height="30" rx="3" fill="#F5B800"/><rect x="170" y="314" width="34" height="30" rx="3" fill="#F5B800"/><rect x="214" y="314" width="34" height="30" rx="3" fill="#F5B800"/>
+<rect x="402" y="222" width="34" height="30" rx="3" fill="#F5B800"/><rect x="446" y="222" width="34" height="30" rx="3" fill="#F5B800"/><rect x="490" y="222" width="34" height="30" rx="3" fill="#F5B800"/><rect x="402" y="268" width="34" height="30" rx="3" fill="#F5B800"/><rect x="446" y="268" width="34" height="30" rx="3" fill="#F5B800"/><rect x="490" y="268" width="34" height="30" rx="3" fill="#F5B800"/><rect x="402" y="314" width="34" height="30" rx="3" fill="#F5B800"/><rect x="446" y="314" width="34" height="30" rx="3" fill="#F5B800"/><rect x="490" y="314" width="34" height="30" rx="3" fill="#F5B800"/>
+<rect x="264" y="214" width="28" height="30" rx="3" fill="#BFD9FF"/><rect x="300" y="214" width="28" height="30" rx="3" fill="#BFD9FF"/><rect x="336" y="214" width="28" height="30" rx="3" fill="#BFD9FF"/><rect x="264" y="258" width="28" height="30" rx="3" fill="#BFD9FF"/><rect x="300" y="258" width="28" height="30" rx="3" fill="#BFD9FF"/><rect x="336" y="258" width="28" height="30" rx="3" fill="#BFD9FF"/>
+<rect x="288" y="318" width="64" height="78" rx="4" fill="#0B4DA2"/><rect x="320" y="318" width="2" height="78" fill="#0A2A5E"/><rect x="294" y="324" width="22" height="30" fill="#BFD9FF"/><rect x="326" y="324" width="22" height="30" fill="#BFD9FF"/>
+<rect x="100" y="190" width="440" height="10" fill="#0A2A5E"/>
+<g><rect x="52" y="316" width="10" height="80" fill="#6B4A2B"/><circle cx="57" cy="296" r="38" fill="#2E9B5A"/><circle cx="36" cy="318" r="26" fill="#37AE68"/><circle cx="80" cy="316" r="26" fill="#27894E"/></g>
+<g><rect x="578" y="326" width="10" height="70" fill="#6B4A2B"/><circle cx="583" cy="306" r="34" fill="#2E9B5A"/><circle cx="562" cy="328" r="22" fill="#37AE68"/><circle cx="604" cy="326" r="22" fill="#27894E"/></g>
+<g fill="#0A2A5E" opacity=".1"><ellipse cx="320" cy="400" rx="230" ry="8"/></g>
+</svg>

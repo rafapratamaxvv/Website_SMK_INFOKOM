@@ -1,0 +1,4 @@
+<div class="table-wrap"><table class="t"><thead><tr><th>Pengirim</th><th>Subjek & pesan</th><th>Waktu</th><th></th></tr></thead><tbody>
+<?php if (!$rows): ?><tr><td colspan="4" class="muted">Belum ada pesan.</td></tr><?php endif; ?>
+<?php foreach ($rows as $r): ?><tr><td><strong><?= e($r['name']) ?></strong><br><a href="mailto:<?= e($r['email']) ?>"><?= e($r['email']) ?></a><br><?= e($r['phone']) ?></td><td><strong><?= e($r['subject']) ?></strong><br><?= nl2br(e($r['message'])) ?></td><td><?= e(fmt_date($r['created_at'], 'd M Y H:i')) ?></td>
+<td><form method="post" action="<?= e(url('admin/pesan/' . $r['id'] . '/hapus')) ?>" data-confirm="Hapus pesan?"><?= Csrf::field() ?><button class="btn btn-sm btn-danger" type="submit"><?= icon('trash', 13) ?></button></form></td></tr><?php endforeach; ?></tbody></table></div><?= pager($pg) ?>

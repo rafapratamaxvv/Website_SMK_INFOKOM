@@ -1,0 +1,14 @@
+Options -Indexes
+<IfModule mod_headers.c>
+  Header always unset X-Powered-By
+</IfModule>
+<FilesMatch "(^\.env|\.env\.example|composer\.(json|lock)|\.sql|\.md|\.log|\.txt)$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "^robots\.txt$">
+  Require all granted
+</FilesMatch>
+RewriteEngine On
+RewriteRule ^(assets|uploads)/ - [L]
+RewriteRule ^(config|core|controllers|models|helpers|middleware|routes|storage|database|views|vendor)/ - [F,L]
+RewriteRule ^ index.php [L,QSA]

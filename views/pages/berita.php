@@ -1,0 +1,8 @@
+<?php page_hero('Berita', 'Kabar terbaru dari SMK Infokom Kota Bogor.', ['Informasi' => null, 'Berita' => null], 'newspaper'); ?>
+<section class="section"><div class="container">
+  <form class="search-bar" method="get" role="search"><input type="search" name="q" value="<?= e($q) ?>" placeholder="Cari berita…" aria-label="Cari berita"><?php if ($cat): ?><input type="hidden" name="kategori" value="<?= e($cat) ?>"><?php endif; ?><button class="btn btn-primary" type="submit"><?= icon('search', 18) ?> Cari</button></form>
+  <div class="chips"><a class="chip <?= $cat === '' ? 'is-active' : '' ?>" href="<?= e(url('berita')) ?>">Semua</a><?php foreach ($cats as $c): ?><a class="chip <?= $cat === $c['slug'] ? 'is-active' : '' ?>" href="<?= e(url('berita?kategori=' . $c['slug'])) ?>"><?= e($c['name']) ?></a><?php endforeach; ?></div>
+  <?php if (!$rows): ?><p class="muted">Berita tidak ditemukan.</p><?php endif; ?>
+  <div class="grid g3"><?php foreach ($rows as $n): ?><article class="card reveal"><div class="card-img"><?= img($n['image'], $n['title']) ?></div><div class="card-body"><div class="card-meta"><?php if ($n['is_featured']): ?><span class="badge badge-gold">Unggulan</span><?php endif; ?><?php if ($n['category']): ?><span class="badge"><?= e($n['category']) ?></span><?php endif; ?><span><?= e(fmt_date($n['published_at'])) ?></span></div><h3><a class="card-link" href="<?= e(url('berita/' . $n['slug'])) ?>"><?= e($n['title']) ?></a> <?= demo_badge($n) ?></h3><p><?= e($n['excerpt']) ?></p></div></article><?php endforeach; ?></div>
+  <?= pager($pg, ['q' => $q, 'kategori' => $cat]) ?>
+</div></section>

@@ -1,0 +1,5 @@
+<?php if (!$jobs): ?><p class="muted">Belum ada lowongan aktif saat ini.</p><?php else: ?>
+<div class="table-wrap reveal"><table class="t"><thead><tr><th>Posisi</th><th>Perusahaan</th><th>Lokasi</th><th>Jurusan</th><th>Tipe</th><th>Persyaratan</th><th>Deadline</th><th></th></tr></thead><tbody>
+<?php foreach ($jobs as $j): ?><tr><td><strong><?= e($j['position']) ?></strong> <?= demo_badge($j) ?></td><td><?= e($j['company']) ?></td><td><?= e($j['location']) ?></td><td><?= e($j['major_code'] ?: 'Semua') ?></td><td><?= e($j['type']) ?></td><td><?= e($j['requirements']) ?></td><td><?= e($j['deadline'] ? fmt_date($j['deadline']) : '—') ?></td>
+<td><?php if ($j['link']): ?><a class="btn btn-sm btn-primary" href="<?= e($j['link']) ?>" target="_blank" rel="noopener noreferrer">Lamar</a><?php else: ?><a class="btn btn-sm btn-outline" href="<?= e(wa_link('Halo BKK, saya tertarik lowongan ' . $j['position'] . ' di ' . $j['company'])) ?>" target="_blank" rel="noopener noreferrer">Tanya BKK</a><?php endif; ?></td></tr><?php endforeach; ?>
+</tbody></table></div><?php endif; ?>

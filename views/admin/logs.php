@@ -1,0 +1,2 @@
+<div class="table-wrap"><table class="t"><thead><tr><th>Waktu</th><th>User</th><th>Aksi</th><th>Modul</th><th>ID</th><th>Detail</th><th>IP</th></tr></thead><tbody>
+<?php foreach ($rows as $l): ?><tr><td><?= e(fmt_date($l['created_at'], 'd M Y H:i:s')) ?></td><td><?= e($l['user_name'] ?: '—') ?></td><td><span class="badge"><?= e($l['action']) ?></span></td><td><?= e($l['module']) ?></td><td><?= e($l['record_id']) ?></td><td><?= e($l['detail']) ?></td><td><?= e($l['ip']) ?></td></tr><?php endforeach; ?></tbody></table></div><?= pager($pg) ?>

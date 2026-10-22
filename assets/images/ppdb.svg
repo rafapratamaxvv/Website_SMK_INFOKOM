@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Promosi PPDB SMK Infokom">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B4DA2"/><stop offset="1" stop-color="#0A2A5E"/></linearGradient></defs>
+<rect width="640" height="480" rx="28" fill="url(#g)"/>
+<circle cx="520" cy="90" r="110" fill="#F5B800" opacity=".16"/><circle cx="90" cy="420" r="120" fill="#fff" opacity=".07"/>
+<g fill="#F5B800"><path d="M70 96 l7 18 l18 7 l-18 7 l-7 18 l-7 -18 l-18 -7 l18 -7z"/><path d="M560 300 l5 13 l13 5 l-13 5 l-5 13 l-5 -13 l-13 -5 l13 -5z" opacity=".8"/><circle cx="130" cy="330" r="6"/><circle cx="548" cy="180" r="5" opacity=".7"/></g>
+<g transform="translate(320 168)">
+<path d="M0 -92 L190 -22 L0 48 L-190 -22Z" fill="#F5B800"/><path d="M-110 8 V84 Q0 140 110 84 V8 L0 48Z" fill="#fff"/><path d="M-110 8 V84 Q0 140 110 84" fill="none" stroke="#d9a000" stroke-width="0"/>
+<path d="M170 -14 V84" stroke="#fff" stroke-width="6" stroke-linecap="round"/><circle cx="170" cy="94" r="12" fill="#fff"/>
+</g>
+<text x="320" y="352" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-weight="800" font-size="76" fill="#fff" letter-spacing="4">PPDB</text>
+<text x="320" y="388" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-weight="600" font-size="22" fill="#F5B800" letter-spacing="3">SMK INFOKOM KOTA BOGOR</text>
+<g font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="18" text-anchor="middle">
+<rect x="54" y="414" width="108" height="36" rx="18" fill="#fff"/><text x="108" y="438" fill="#0A2A5E">TKJ</text><rect x="172" y="414" width="108" height="36" rx="18" fill="#fff"/><text x="226" y="438" fill="#0A2A5E">RPL</text><rect x="290" y="414" width="108" height="36" rx="18" fill="#fff"/><text x="344" y="438" fill="#0A2A5E">DKV</text><rect x="408" y="414" width="108" height="36" rx="18" fill="#fff"/><text x="462" y="438" fill="#0A2A5E">PSPT</text>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+
+# Rahasia aplikasi
+.env
+
+# Log aplikasi
+storage/logs/*
+!storage/logs/.gitkeep
+
+# Cache lokal
+storage/cache/*
+!storage/cache/.gitkeep
+
+# Backup database sensitif
+storage/backups/*.sql
+
+# File upload pengguna
+uploads/*
+!uploads/.htaccess
+!uploads/**/
+!uploads/**/*

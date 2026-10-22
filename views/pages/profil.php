@@ -1,0 +1,7 @@
+<?php page_hero('Profil Sekolah', 'Mengenal SMK Infokom Kota Bogor lebih dekat.', ['Profil' => null], 'building');
+$icons = ['tentang-sekolah' => 'building', 'sejarah' => 'clock', 'visi-misi' => 'eye', 'tujuan' => 'check-square', 'struktur-organisasi' => 'users']; ?>
+<section class="section"><div class="container"><div class="grid g3 stagger">
+<?php foreach ($pages as $i => $p): ?><article class="card icon-card reveal" style="--i:<?= (int)$i ?>"><div class="ico"><?= icon($icons[$p['slug']] ?? 'book', 24) ?></div><h3><a class="card-link" href="<?= e(url('profil/' . $p['slug'])) ?>"><?= e($p['title']) ?></a></h3><p class="muted"><?= e($p['excerpt']) ?></p><span class="more">Selengkapnya <?= icon('arrow-right', 14) ?></span></article><?php endforeach; ?>
+<article class="card icon-card reveal"><div class="ico"><?= icon('user-check', 24) ?></div><h3><a class="card-link" href="<?= e(url('profil/kepala-sekolah')) ?>">Kepala Sekolah</a></h3><p class="muted">Sambutan Kepala Sekolah.</p><span class="more">Selengkapnya <?= icon('arrow-right', 14) ?></span></article>
+<article class="card icon-card reveal"><div class="ico"><?= icon('users', 24) ?></div><h3><a class="card-link" href="<?= e(url('profil/guru-staff')) ?>">Guru &amp; Staff</a></h3><p class="muted">Tenaga pendidik dan kependidikan.</p><span class="more">Selengkapnya <?= icon('arrow-right', 14) ?></span></article>
+</div></div></section>

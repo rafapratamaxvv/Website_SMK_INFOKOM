@@ -1,0 +1,11 @@
+Salin gambar dari folder "*_files" hasil Save Page As ke subfolder berikut:
+
+ Berita___Informasi..._files    -> berita/
+ Galeri_Sekolah..._files        -> galeri/
+ Prestasi..._files              -> prestasi/
+ Mitra___Kerjasama..._files     -> mitra/
+ PKL..._files                   -> pkl/
+ Kunjungan_Industri..._files    -> kunjungan/
+ Magang..._files / BKK..._files -> magang/ , bkk/ (opsional)
+
+Nama berkas harus tetap sama. Sebelum disalin, situs menampilkan gambar placeholder.
