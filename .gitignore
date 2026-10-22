@@ -1,0 +1,26 @@
+
+# Konfigurasi rahasia
+.env
+.env.*
+
+# Izinkan file contoh konfigurasi
+!.env.example
+
+# Log dan cache
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/cache/*
+!/storage/cache/.gitkeep
+
+# Backup database
+/storage/backups/*
+!/storage/backups/.gitkeep
+
+# File yang diunggah melalui admin
+/uploads/*
+!/uploads/.htaccess
+!/uploads/.gitkeep
+
+# File sistem
+.DS_Store
+Thumbs.db
