@@ -1,20 +1,28 @@
 
-# Rahasia aplikasi
+# Konfigurasi rahasia
 .env
+.env.*
+!.env.example
 
 # Log aplikasi
-storage/logs/*
-!storage/logs/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
 
 # Cache lokal
-storage/cache/*
-!storage/cache/.gitkeep
+/storage/cache/*
+!/storage/cache/.gitkeep
 
 # Backup database sensitif
-storage/backups/*.sql
+/storage/backups/*
+!/storage/backups/.gitkeep
 
 # File upload pengguna
-uploads/*
-!uploads/.htaccess
-!uploads/**/
-!uploads/**/*
+/uploads/*
+!/uploads/.htaccess
+!/uploads/.gitkeep
+!/uploads/**/
+!/uploads/**/*
+
+# File sistem
+.DS_Store
+Thumbs.db
