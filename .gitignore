@@ -1,0 +1,5 @@
+.env
+storage/logs/*.log
+storage/backups/*.sql
+uploads/*
+!uploads/.htaccess
