@@ -1,0 +1,6 @@
+{
+  "name": "smk-infokom/bogor",
+  "description": "Website Profil SMK Infokom Kota Bogor (PHP Native)",
+  "type": "project",
+  "require": { "php": ">=8.2", "ext-pdo": "*", "ext-mbstring": "*", "ext-fileinfo": "*", "ext-gd": "*", "dompdf/dompdf": "^3.0" }
+}
